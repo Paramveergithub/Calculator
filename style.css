@@ -1,0 +1,96 @@
+body{
+  background-color: black;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.Container{
+  height: 90vh;
+  width: 22rem;
+  margin: 50px auto;
+  display: flex;
+  flex-direction: column;
+  border: 5px solid white;
+  border-radius: 5%;
+  padding: 0 .5rem; 
+}
+
+input{
+  flex-grow: 1;
+  text-align: right;
+  font-size: 4rem;
+  background-color: black;
+  color: white;
+  border-radius: 5%;
+  margin: .5rem;
+  border: none;
+  outline: none;
+}
+
+.grid-container{
+  flex-grow: 2;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  gap: .3rem;
+  width: 100%;
+}
+button{
+  border-radius: 50%;
+  height: 95%;
+  width: 95%;
+  font-size: 2rem;
+  background-color: #505050;
+  cursor: pointer;
+  border: none;
+  color: white;
+}
+
+.zero{
+  grid-column: span 2;
+  border-radius: 50px;
+}
+.yellow{
+  background-color: rgb(255, 158, 0);
+}
+.grey{
+  background-color: rgb(183, 178, 178);
+  color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
